@@ -2,8 +2,8 @@ package smoke
 
 func Total(xs []int) int {
 	n := 0
-	for _, x := range xs {
-		n += x
+	for i := range xs {
+		n += xs[i]
 	}
 	return n
 }
